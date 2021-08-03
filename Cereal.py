@@ -102,3 +102,54 @@ async def start_rizoel():
     global dav
     global raj
     global put
+
+
+if smex:
+        session_name = str(smex)
+        print("String 1 Found")
+        idk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 1")
+            await idk.start()
+            botme = await idk.get_me()
+            await idk(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await idk(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            idk = "smex"
+            print(e)
+            pass
+    else:
+        print("Session 1 not Found")
+        session_name = "startup"
+        idk = TelegramClient(session_name, a, b)
+        try:
+            await idk.start()
+        except Exception as e:
+            pass
+   
+    if smexx:
+        session_name = str(smexx)
+        print("String 2 Found")
+        ydk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 2")
+            await ydk.start()
+            await ydk(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botme = await ydk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 2 not Found")
+        pass
+        session_name = "startup"
+        ydk = TelegramClient(session_name, a, b)
+        try:
+            await ydk.start()
+        except Exception as e:
+            pass
