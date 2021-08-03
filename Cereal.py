@@ -228,3 +228,131 @@ if smexxx:
             await sdk.start()
         except Exception as e:
             pass
+
+if sixth:
+        session_name = str(sixth)
+        print("String 6 Found")
+        adk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 6")
+            await adk.start()
+            await adk(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await adk(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botme = await adk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 6 not Found")
+        pass
+        session_name = "startup"
+        adk = TelegramClient(session_name, a, b)
+        try:
+            await adk.start()
+        except Exception as e:
+            pass
+
+    if seven:
+        session_name = str(seven)
+        print("String 7 Found")
+        bdk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 7")
+            await bdk.start()
+            await bdk(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botme = await bdk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 7 not Found")
+        pass
+        session_name = "startup"
+        bdk = TelegramClient(session_name, a, b)
+        try:
+            await bdk.start()
+        except Exception as e:
+            pass    
+        
+    
+    if eight:
+        session_name = str(eight)
+        print("String 8 Found")
+        cdk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 8")
+            await cdk.start()
+            await cdk(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botme = await cdk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 8 not Found")
+        pass
+        session_name = "startup"
+        cdk = TelegramClient(session_name, a, b)
+        try:
+            await cdk.start()
+        except Exception as e:
+            pass   
+        
+    if ninth:
+        session_name = str(ninth)
+        print("String 9 Found")
+        ddk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 9")
+            await ddk.start()
+            await ddk(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botme = await ddk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 9 not Found")
+        pass
+        session_name = "startup"
+        ddk = TelegramClient(session_name, a, b)
+        try:
+            await ddk.start()
+        except Exception as e:
+            pass   
+    
+  
+    if tenth:
+        session_name = str(tenth)
+        print("String 10 Found")
+        edk = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 10")
+            await edk.start()
+            await edk(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await edk(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botme = await edk.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 10 not Found")
+        pass
+        session_name = "startup"
+        edk = TelegramClient(session_name, a, b)
+        try:
+            await edk.start()
+        except Exception as e:
+            pass 
+        
