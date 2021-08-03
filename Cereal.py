@@ -1546,3 +1546,45 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
+    if e.sender_id in SMEX_USERS:
+        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 6:
+            bc = rizoel[0]
+            text = "Joining..."
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await e.client(functions.channels.JoinChannelRequest(channel=bc))
+                await event.edit("𝐉𝐨𝐢𝐧 𝐇𝐨𝐠𝐲𝐚 𝐒𝐢𝐫")
+            except Exception as e:
+                await event.edit(str(e))   
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+            
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.pjoin")) 
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+
