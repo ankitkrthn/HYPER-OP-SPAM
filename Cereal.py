@@ -533,3 +533,196 @@ if sixth:
             await aan.start()
         except Exception as e:
             pass
+
+if eieee:
+        session_name = str(eieee)
+        print("String 18 Found")
+        ake = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 18")
+            await ake.start()
+            botme = await ake.get_me()
+            await ake(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await ake(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 18 not Found")
+        session_name = "startup"
+        ake = TelegramClient(session_name, a, b)
+        try:
+            await ake.start()
+        except Exception as e:
+            pass
+   
+    if nieee:
+        session_name = str(nieee)
+        print("String 19 Found")
+        eel = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 19")
+            await eel.start()
+            botme = await eel.get_me()
+            await eel(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await eel(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 19 not Found")
+        session_name = "startup"
+        eel = TelegramClient(session_name, a, b)
+        try:
+            await idk.start()
+        except Exception as e:
+            pass
+   
+    if gandu:
+        session_name = str(gandu)
+        print("String 20 Found")
+        khu = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 20")
+            await khu.start()
+            botme = await khu.get_me()
+            await khu(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await khu(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 20 not Found")
+        session_name = "startup"
+        khu = TelegramClient(session_name, a, b)
+        try:
+            await khu.start()
+        except Exception as e:
+            pass
+   
+    if ekish:
+        session_name = str(ekish)
+        print("String 21 Found")
+        shi = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 21")
+            await shi.start()
+            botme = await shi.get_me()
+            await shi(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await shi(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 21 not Found")
+        session_name = "startup"
+        shi = TelegramClient(session_name, a, b)
+        try:
+            await shi.start()
+        except Exception as e:
+            pass
+   
+    if baish:
+        session_name = str(baish)
+        print("String 22 Found")
+        yaa = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 22")
+            await yaa.start()
+            botme = await yaa.get_me()
+            await yaa(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 22 not Found")
+        session_name = "startup"
+        yaa = TelegramClient(session_name, a, b)
+        try:
+            await yaa.start()
+        except Exception as e:
+            pass
+   
+    if teish:
+        session_name = str(teish)
+        print("String 23 Found")
+        dav = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 23")
+            await dav.start()
+            botme = await dav.get_me()
+            await dav(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await dav(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 23 not Found")
+        session_name = "startup"
+        dav = TelegramClient(session_name, a, b)
+        try:
+            await dav.start()
+        except Exception as e:
+            pass
+   
+    if tfour:
+        session_name = str(tfour)
+        print("String 24 Found")
+        raj = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 24")
+            await raj.start()
+            botme = await raj.get_me()
+            await raj(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            await raj(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 24 not Found")
+        session_name = "startup"
+        raj = TelegramClient(session_name, a, b)
+        try:
+            await raj.start()
+        except Exception as e:
+            pass
+   
+    if tfive:
+        session_name = str(tfive)
+        print("String 25 Found")
+        put = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 1")
+            await put.start()
+            botme = await put.get_me()
+            await put(functions.channels.JoinChannelRequest(channel="@DNHxHELL"))
+            await put(functions.channels.JoinChannelRequest(channel="@DragNeelOP"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 25 not Found")
+        session_name = "startup"
+        put = TelegramClient(session_name, a, b)
+        try:
+            await put.start()
+        except Exception as e:
+            pass
+   
