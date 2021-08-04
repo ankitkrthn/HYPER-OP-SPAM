@@ -4,8 +4,7 @@
 
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/spam-bot)
-### String Session
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 No Requirement of API ID and API HASH
 
    - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
