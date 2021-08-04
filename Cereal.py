@@ -1605,3 +1605,90 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
+    if e.sender_id in SMEX_USERS:
+        rizoel = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) == 7:
+            bc = rizoel[0]
+            bc = int(bc)
+            text = "RiZoeL Spam Bot Leaving....."
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await event.client(LeaveChannelRequest(bc))
+                await event.edit("Succesfully Left")
+            except Exception as e:
+                await event.edit(str(e))   
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+            
+    
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
+    if e.sender_id in SMEX_USERS:
+        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 7:
+            bc = rizoel[0]
+            bc = int(bc)
+            text = "Leaving....."
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await event.client(LeaveChannelRequest(bc))
+                await event.edit("Succesfully Left")
+            except Exception as e:
+                await event.edit(str(e))   
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+
+                    
