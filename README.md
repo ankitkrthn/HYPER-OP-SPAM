@@ -1,7 +1,11 @@
 #### *CEREALKILLERS-SPAM-ROBOT*
 
 
-https://telegra.ph/file/f0fcd340b51423c5f068b.jpg
+<p align="center">
+  <img src="https://telegra.ph/file/f0fcd340b51423c5f068b.jpg">
+</p>
+
+
 
 ## 🚀 Deploy on Heroku 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeAm-MenTal/CEREALKILLERS-SPAM-ROBOT)
