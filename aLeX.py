@@ -960,8 +960,7 @@ async def _(e):
         if len(e.text) == 7:
             bc = alex[0]
             bc = int(bc)
-            text = "AleX.. TeAm
-Leaving....."
+            text = "AleX TeAm Leaving...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
