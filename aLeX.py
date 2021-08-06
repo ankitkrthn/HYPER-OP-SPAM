@@ -1063,11 +1063,11 @@ async def spam(e):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         smex = await e.get_reply_message()
         alex = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-        yukkisexy = yukki[1:]
-        if len(yukkisexy) == 2:
-            message = str(yukkisexy[1])
-            counter = int(yukkisexy[0])
-            sleeptime = float(yukki[0])
+        alexsexy = alex[1:]
+        if len(alexsexy) == 2:
+            message = str(alexsexy[1])
+            counter = int(alexsexy[0])
+            sleeptime = float(alex[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -1076,8 +1076,8 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(yukkisexy[0])
-            sleeptime = float(yukki[0])
+            counter = int(alexsexy[0])
+            sleeptime = float(alex[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -1085,7 +1085,7 @@ async def spam(e):
                 await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(yukkisexy[0])
+            counter = int(alexsexy[0])
             sleeptime = float(yukki[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
