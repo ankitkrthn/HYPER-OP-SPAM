@@ -77,7 +77,7 @@ SMEX_USERS = []
 for x in SUDO: 
     SMEX_USERS.append(x)
     
-async def start_yukki():
+async def start_alex():
     global idk
     global ydk
     global wdk
@@ -779,7 +779,7 @@ async def start_yukki():
    
    
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_yukki())       
+loop.run_until_complete(start_alex())       
 
 async def gifspam(e, smex):
     try:
@@ -827,14 +827,14 @@ async def gifspam(e, smex):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
+        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
-            bio = str(yukki[0])
+            bio = str(alex[0])
             text = "Changing Bio"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio By MULTI SPAMBOT")
+                await event.edit("Succesfully Changed Bio By... AleX SpAmmEr RoBoT")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -869,7 +869,7 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
             text = "Joining..."
