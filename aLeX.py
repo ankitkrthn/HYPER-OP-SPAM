@@ -1538,9 +1538,7 @@ async def help(e):
         
 text = """
 
-💥💥RDX SPAM BOT IS MODIFIED OF YUKKI 💥💥💥
-💥💥💥💥💥💥 BY  SIDDHANT   OP 💥💥💥💥💥💥"""
-
+🔰✘𓆩ꪖꪶꫀ᥊ sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ Ꭵs 𝙈𝙊𝘿𝙄𝙁𝙄𝙀𝘿...🔰"""
 print(text)
 print("")
 print("✘𓆩ꪖꪶꫀ᥊ sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ 𝑆𝔞R𝔱є∂ sU𝐂𝐂εS𝔣𝔲𝔩𝔩Y.")
