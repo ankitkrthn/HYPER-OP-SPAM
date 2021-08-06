@@ -1543,7 +1543,7 @@ text = """
 
 print(text)
 print("")
-print("SMEX! RDX MULTI SPAM BOT STARTED SUCCESFULLY.")
+print("✘𓆩ꪖꪶꫀ᥊ sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ 𝑆𝔞R𝔱є∂ sU𝐂𝐂εS𝔣𝔲𝔩𝔩Y.")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
