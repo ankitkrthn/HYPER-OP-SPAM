@@ -112,10 +112,7 @@ async def start_alex():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
-            await idk(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
-            await idk(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
-            await idk(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            await idk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
