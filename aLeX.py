@@ -754,7 +754,7 @@ async def start_alex():
         print("String 25 Found")
         put = TelegramClient(StringSession(session_name), a, b)
         try:
-            print("Booting Up The Client 1")
+            print("Booting Up The Client 25")
             await put.start()
             botme = await put.get_me()
             await put(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
@@ -780,20 +780,22 @@ if alexz:
         print("String 26 Found")
         alez = TelegramClient(StringSession(session_name), a, b)
         try:
-            print("Booting Up The Client 26")
+            print("Booting Up The Client 26)
             await alez.start()
             botme = await alez.get_me()
-            await alez(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await alez(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))
+            await alez(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
+            await alez(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
+            await dav(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await dav(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
-        except Exception as e:       
+        except Exception as e:
             print(e)
             pass
     else:
         print("Session 26 not Found")
         session_name = "startup"
-        alez = TelegramClient(session_name, a, b)
+        Alez = TelegramClient(session_name, a, b)
         try:
             await alez.start()
         except Exception as e:
