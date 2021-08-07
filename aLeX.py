@@ -42,7 +42,7 @@ baish = STRING22
 teish = STRING23
 tfour = STRING24
 tfive = STRING25
-alexz = STRING26
+
 
 idk = ""
 ydk = ""
@@ -69,7 +69,7 @@ yaa = ""
 dav = ""
 raj = ""
 put = ""
-alz = ""
+
 
 que = {}
 
@@ -103,7 +103,7 @@ async def start_alex():
     global dav
     global raj
     global put
-    global alz
+    
 
     if smex:
         session_name = str(smex)
@@ -775,32 +775,6 @@ async def start_alex():
         except Exception as e:
             pass
 
-    if alexz:
-        session_name = str(alexz)
-        print("String 26 Found")
-        alz = TelegramClient(StringSession(session_name), a, b)
-        try:
-            print("Booting Up The Client 26")
-            await alz.start()
-            botme = await alz.get_me()
-            await alz(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))
-            await alz(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))         
-            botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
-        except Exception as e:
-            print(e)
-            pass
-    else:
-        print("Session 26 not Found")
-        session_name = "startup"
-        alz = TelegramClient(session_name, a, b)
-        try:
-            await alz.start()
-        except Exception as e:
-            pass
-   
-   
-   
 loop = asyncio.get_event_loop()
 loop.run_until_complete(start_alex())       
 
@@ -846,7 +820,7 @@ async def gifspam(e, smex):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
@@ -889,8 +863,6 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
@@ -932,9 +904,6 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-
-
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
@@ -978,7 +947,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
@@ -1025,7 +994,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
@@ -1082,7 +1051,7 @@ async def spam(e):
 @yaa.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 
 =True, pattern=r"\.delayspam"))
 
@@ -1150,8 +1119,6 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -1212,8 +1179,6 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -1280,8 +1245,6 @@ async def spam(e):
 @dav.on(events.NewMessage(incoming=True))
 @raj.on(events.NewMessage(incoming=True))
 @put.on(events.NewMessage(incoming=True))
-@alz.on(events.NewMessage(incoming=True))
-
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -1322,7 +1285,7 @@ async def _(event):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+
 
 
 async def _(e):
@@ -1382,7 +1345,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+
 
 async def _(e):
     global que
@@ -1444,7 +1407,7 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
@@ -1484,7 +1447,7 @@ async def ping(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
@@ -1562,7 +1525,7 @@ async def restart(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
