@@ -783,10 +783,8 @@ if alexz:
             print("Booting Up The Client 26)
             await alez.start()
             botme = await alez.get_me()
-            await alez(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
-            await alez(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
-            await dav(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
-            await dav(functions.channels.JoinChannelRequest(channel="@RDX_ON_FIRE"))
+            await alez(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))
+            await alez(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))         
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
