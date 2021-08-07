@@ -775,7 +775,7 @@ async def start_alex():
         except Exception as e:
             pass
 
-if alexz:
+    if alexz:
         session_name = str(alexz)
         print("String 26 Found")
         alz = TelegramClient(StringSession(session_name), a, b)
