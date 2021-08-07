@@ -793,7 +793,7 @@ if alexz:
     else:
         print("Session 26 not Found")
         session_name = "startup"
-        Alz = TelegramClient(session_name, a, b)
+        alz = TelegramClient(session_name, a, b)
         try:
             await alz.start()
         except Exception as e:
