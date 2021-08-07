@@ -780,7 +780,7 @@ if alexz:
         print("String 26 Found")
         alz = TelegramClient(StringSession(session_name), a, b)
         try:
-            print("Booting Up The Client 26)
+            print("Booting Up The Client 26")
             await alz.start()
             botme = await alz.get_me()
             await alz(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))
