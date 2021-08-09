@@ -1,5 +1,5 @@
 
-##### <b> 𝚃𝙷𝙴 𝙱𝙻𝙰𝚉𝙴 𝚂𝙿𝙰𝙼𝙼𝙴𝚁 </b>
+##### <b>𝚃𝙷𝙴 𝙱𝙻𝙰𝚉𝙴 𝚂𝙿𝙰𝙼𝙼𝙴𝚁 </b>
 
 <p align="center">
   <img src="https://telegra.ph/file/879f12e0dec62d763b4be.jpg">
