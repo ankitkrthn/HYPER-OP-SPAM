@@ -8,8 +8,7 @@
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 <h1 align="center">
   <b>✘𓆩ꪖꪶꫀ᥊ sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ </b>
-</h1>
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+</h1>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 #  Deploy Up to 25 Bots in One time 🔥 
 
 ## 🚀 Deploy on Heroku 
