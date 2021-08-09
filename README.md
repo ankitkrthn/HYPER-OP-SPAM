@@ -18,7 +18,7 @@ __________________________________
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeAm-MenTal/CEREALKILLERS-SPAM-ROBOT)
 
 
-### String Session
+### sтяιηg sεssιση
 
 
 No Requirement of API ID and API HASH
