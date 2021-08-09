@@ -21,9 +21,9 @@ __________________________________
 ### sтяιηg sεssιση
 
 
-No Requirement of API ID and API HASH
+𝖭𝗈 𝖱𝖾𝗊𝗎𝗂𝗋𝖾𝗆𝖾𝗇𝗍 𝗈𝖿 𝖠𝖯𝖨 𝖨𝖣 𝖺𝗇𝖽 𝖠𝖯𝖨 𝖧𝖠𝖲𝖧
 
-   - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
+   - 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝗈𝗇 𝖱𝖾𝗉𝗅 [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
 
 
 [✘𓆩βƖꪖƹꫀ sρꪖꪑꪑε𝚁](https://t.me/BLAZE_SPAMMER)
