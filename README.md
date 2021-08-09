@@ -9,12 +9,12 @@
   <b>✘𓆩ꪖꪶꫀ᥊ sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ </b>
 </h1>
 
-# <b> Deploy Up to 25 Bots in One time 🔥 </b>
+#  Deploy Up to 25 Bots in One time 🔥 
 
 ## 🚀 Deploy on Heroku 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeAm-MenTal/CEREALKILLERS-SPAM-ROBOT)
 
 
- No Requirement of API ID and API HASH
+<b> No Requirement of API ID and API HASH </b>
 
    - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
