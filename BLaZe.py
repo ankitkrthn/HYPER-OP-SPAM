@@ -77,7 +77,7 @@ SMEX_USERS = []
 for x in SUDO: 
     SMEX_USERS.append(x)
     
-async def start_alex():
+async def start_BLaZe():
     global idk
     global ydk
     global wdk
@@ -113,8 +113,8 @@ async def start_alex():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await idk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await idk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await idk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -137,8 +137,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await ydk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -162,8 +162,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 3")
             await  wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await wdk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -187,8 +187,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await hdk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -212,8 +212,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await sdk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -237,8 +237,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await adk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await adk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await adk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -262,8 +262,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await bdk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -288,8 +288,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await cdk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -313,8 +313,8 @@ async def start_alex():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@AleXElite_Support"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@Alex_Elite"))           
+            await ddk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
