@@ -21,7 +21,7 @@ __________________________________
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeAm-MenTal/CEREALKILLERS-SPAM-ROBOT)
 
 __________________________________
-## [sтяιηg sεssιση](https://replit.com/@TCeReaLkiller/BLAZE-SPAMMER)
+# [sтяιηg sεssιση](https://replit.com/@TCeReaLkiller/BLAZE-SPAMMER)
 
 
 𝖭𝗈 𝖱𝖾𝗊𝗎𝗂𝗋𝖾𝗆𝖾𝗇𝗍 𝗈𝖿 𝖠𝖯𝖨 𝖨𝖣 𝖺𝗇𝖽 𝖠𝖯𝖨 𝖧𝖠𝖲𝖧
