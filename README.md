@@ -14,7 +14,7 @@ __________________________________
 
 # Deploy Up to 25 Bots in One time 🔥 
 
-## 🚀 Deploy on Heroku 
+## 🚀 𝐃ερℓσү ση нεяσкυ 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeAm-MenTal/CEREALKILLERS-SPAM-ROBOT)
 
 
