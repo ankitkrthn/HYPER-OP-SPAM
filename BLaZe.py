@@ -729,7 +729,7 @@ async def start_BLaZe():
             pass
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_alex())       
+loop.run_until_complete(start_BLaZe())       
 
 async def gifspam(e, smex):
     try:
@@ -778,14 +778,14 @@ async def gifspam(e, smex):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio 🔰✘【★ ꪖꪶꫀ᥊★】 sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ "
     if e.sender_id in SMEX_USERS:
-        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(alex[0])
             text = "Changing Bio"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio By... AleX SpAmmEr RoBoT")
+                await event.edit("Succesfully Changed Bio By... BLaZe SpAmmEr RoBoT")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -819,9 +819,9 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
-        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
-            bc = alex[0]
+            bc = BLaZe[0]
             text = "Joining..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
