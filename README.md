@@ -2,14 +2,14 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/47c2d4f4a5d89a0f49ee1.jpg">
+  <img src="https://telegra.ph/file/879f12e0dec62d763b4be.jpg">
 </p>
 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+__________________________________
 <h1 align="center">
-  <b>✘𓆩ꪖꪶꫀ᥊ sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ </b>
+  <b>✘𓆩βƖꪖƹꫀ sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ </b>
 </h1>
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+__________________________________
 
 # Deploy Up to 25 Bots in One time 🔥 
 
