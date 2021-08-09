@@ -26,4 +26,4 @@ __________________________________
    - 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝗈𝗇 𝖱𝖾𝗉𝗅 [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
 
 
-#### ρσωєя∂ ʙꪗ:- 【★ [✘𓆩βƖꪖƹꫀ sρꪖꪑꪑε𝚁](https://t.me/BLAZE_SPAMMER) ★】
+#### ρσωєя∂ ʙꪗ:- 【 [✘𓆩βƖꪖƹꫀ sρꪖꪑꪑε𝚁𓆩✘](https://t.me/BLAZE_SPAMMER) ★】
