@@ -780,7 +780,7 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
-            bio = str(alex[0])
+            bio = str(BLaZe[0])
             text = "Changing Bio"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
@@ -861,7 +861,7 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = alex[0]
             text = "Joining...."
@@ -905,11 +905,11 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
-        alex = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) == 7:
-            bc = alex[0]
+            bc = BLaZe[0]
             bc = int(bc)
-            text = "AleX TeAm Leaving...."
+            text = "BLaZe TeAm Leaving...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -955,7 +955,7 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(alex) == 2:
             message = str(alex[1])
@@ -1014,12 +1014,12 @@ async def spam(e):
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         smex = await e.get_reply_message()
-        alex = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+        BLaZe = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
         alexsexy = alex[1:]
-        if len(alexsexy) == 2:
-            message = str(alexsexy[1])
-            counter = int(alexsexy[0])
-            sleeptime = float(alex[0])
+        if len(BLaZesexy) == 2:
+            message = str(BLaZesexy[1])
+            counter = int(BLaZesexy[0])
+            sleeptime = float(BLaZe[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -1077,11 +1077,11 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(alex) == 2:
-            message = str(alex[1])
-            counter = int(alex[0])
+        if len(BLaZe) == 2:
+            message = str(BLaZe[1])
+            counter = int(BLaZe[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -1098,7 +1098,7 @@ async def spam(e):
                 await asyncio.sleep(0.1)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(yukki[0])
+            counter = int(BLaZe[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -1137,16 +1137,16 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(alex) == 2:
-            message = str(alex[1])
+        if len(BLaZe) == 2:
+            message = str(BLaZe[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(alex[0])
+            counter = int(BLaZe[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -1247,7 +1247,7 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 11:
             message = str(alex[0])
@@ -1306,7 +1306,7 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        alex = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 12:
             message = str(alex[0])
