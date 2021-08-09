@@ -15,6 +15,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeAm-MenTal/CEREALKILLERS-SPAM-ROBOT)
 
 
-<b> No Requirement of API ID and API HASH </b>
+<b>No Requirement of API ID and API HASH</b>
 
    - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
