@@ -422,7 +422,7 @@ async def start_BLaZe():
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
-        except Exception as e:
+        except Exception as e: 
             print(e)
             pass
     else:
@@ -778,9 +778,9 @@ async def gifspam(e, smex):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio 🔰✘𓆩βƖꪖƹꫀ★】 sρꪖꪑꪑε𝚁 ʀꪮʙʙꪮᴛ "
     if e.sender_id in SMEX_USERS:
-        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
+        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
-            bio = str(BLaZe[0])
+            bio = str(bLaZe[0])
             text = "Changing Bio"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
@@ -819,9 +819,9 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
-        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
-            bc = BLaZe[0]
+            bc = bLaZe[0]
             text = "Joining..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
@@ -861,9 +861,9 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
-        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
-            bc = alex[0]
+            bc = bLaZe[0]
             text = "Joining...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
@@ -905,9 +905,9 @@ async def _(e):
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
-        BLaZe = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bLaZe = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) == 7:
-            bc = BLaZe[0]
+            bc = bLaZe[0]
             bc = int(bc)
             text = "BLaZe TeAm Leaving...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
@@ -955,11 +955,11 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        BLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(alex) == 2:
-            message = str(alex[1])
-            counter = int(alex[0])
+        if len(bLaZe) == 2:
+            message = str(bLaZe[1])
+            counter = int(bLaZe[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None )
             await asyncio.wait([e.respond(message) for i in range(counter)])
@@ -1014,9 +1014,9 @@ async def spam(e):
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         smex = await e.get_reply_message()
-        BLaZe = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-        alexsexy = alex[1:]
-        if len(BLaZesexy) == 2:
+        bLaZe = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+        bLaZesexy = bLaZe[1:]
+        if len(bLaZesexy) == 2:
             message = str(BLaZesexy[1])
             counter = int(BLaZesexy[0])
             sleeptime = float(BLaZe[0])
