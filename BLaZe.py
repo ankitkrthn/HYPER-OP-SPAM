@@ -520,7 +520,7 @@ async def start_BLaZe():
             print("Booting Up The Client 17")
             await aan.start()
             botme = await aan.get_me()
-           bawait aan(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
+            await aan(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
             await aan(functions.channels.JoinChannelRequest(channel="@BLAZE_ZONE"))           
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
