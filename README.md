@@ -15,7 +15,8 @@ __________________________________
 #### ρσωєя∂ ʙꪗ:- 【 [✘𓆩βƖꪖƹꫀ sρꪖꪑꪑε𝚁𓆩✘](https://t.me/BLAZE_SPAMMER) 】
 
 
-# 𝙳𝙴𝙿𝙻𝙾𝚈..... 25 𝙱𝙾𝚃𝚂 𝙸𝙽 𝙾𝙽𝙴 𝚃𝙸𝙼𝙴 🐒
+# ✰.ᴏᴛʜᴇʀ ᴡɪᴛʜ sᴏᴍᴇ ᴍɪsғᴜɴᴛɪᴏɴɪɴɢ ʙʀᴀɪɴ sᴛᴀʏ ᴏᴜᴛ ᴛʜɪs sᴜᴘᴇʀ ᴍᴀʜᴀsᴘᴀᴍ ʀᴏʙᴏᴛ
+ ᴅᴇᴘʟᴏʏ ᴛᴏ..... 25 ʙᴏᴛs ɪɴ ᴛɪᴍᴇ ✰
 __________________________________
 ## 🚀 𝐃ερℓσү ση нεяσкυ 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeAm-MenTal/CEREALKILLERS-SPAM-ROBOT)
