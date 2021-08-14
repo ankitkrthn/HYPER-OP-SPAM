@@ -1645,6 +1645,10 @@ if len(sys.argv) not in (1, 3, 4):
         put.disconnect()
     except Exception as e:
         pass
+    try:
+        alz.disconnect()
+    except Exception as e:
+        pass
 else:
     try:
         idk.run_until_disconnected()
@@ -1744,5 +1748,9 @@ else:
         pass
     try:
         put.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        alz.run_until_disconnected()
     except Exception as e:
         pass
