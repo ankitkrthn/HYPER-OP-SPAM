@@ -152,8 +152,17 @@
         "description": "Sudo Users Id",
         "value": "1922242462",
         "required": true
-      }
-  },
+      },
+      "USERNAME": {
+        "description": " enter your username.. Without @ ",
+        "value": "BLAZE_SPAMMER",
+        "required": false
+      },
+      "ALIVE_NAME": {
+        "description": " enter your name ",
+        "value": "⚔️【★𝖡𝖫𝖠𝖹𝖤 ★】 𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★➤➤",
+        "required": false
+  }, 
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
