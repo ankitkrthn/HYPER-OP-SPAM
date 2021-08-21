@@ -1,7 +1,7 @@
 {
-  "name": "RDX MULTI SPAM BOT",
-  "description": "A POWERFULL AND FAST SPAM BOT BY RDX.",
-  "logo": "https://telegra.ph/file/c6d5a3802c0f0a7061a34.jpg",
+  "name": "BLaZe SpAmmEr RoBoT",
+  "description": "A POWERFULL AND FAST SPAM BOT BY.. @BLAZE_ZONE",
+  "logo": "https://telegra.ph/file/d5cd02dfde60ed484d319.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -87,7 +87,7 @@
         "description": "Telethon String Session",
         "value": "",
         "required": false
-      },
+      }, 
       "STRING17": {
         "description": "Telethon String Session",
         "value": "",
@@ -133,32 +133,36 @@
         "value": "",
         "required": false
       },
-      "USERNAME": {
-        "description": "AAA GYA YAHA USERNAME DALO BINA @ LIKE SIDDHANT_DEVIL",
-        "value": "SIDDHANT_DEVIL",
-        "required": false
-      },
-      "ALIVE_NAME": {
-        "description": "AA GYA HAI AB APNA NAME DALO YAHA JAISE NICHE H ",
-        "value": "𝐒𝐈𝐃𝐃𝐇𝐀𝐍𝐓 𝐎𝐏",
+        "STRING26": {
+        "description": "Telethon String Session",
+        "value": "",
         "required": false
       },
       "API_ID": {
-        "description": "APP ID DALO BHAI",
+        "description": "Telethon String Session",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "API HAS DALO YARR",
+        "description": "Api Hash",
         "value": "",
         "required": true
       },
       "SUDO": {
-        "description": "SUDO USERS ID MERA BHI DAL LENA ACHHA HU DIL KA ",
-        "value": "1666692415",
+        "description": "Sudo Users Id",
+        "value": "1922242462",
         "required": true
-      }
-  },
+      },
+      "USERNAME": {
+        "description": "enter your username.. Without @",
+        "value": "BLAZE_SPAMMER",
+        "required": false
+      },
+      "ALIVE_NAME": {
+        "description": "enter your name",
+        "value": "⚔️【★𝖡𝖫𝖠𝖹𝖤 ★】 𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★➤➤",
+        "required": false
+  }, 
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
