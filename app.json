@@ -87,7 +87,7 @@
         "description": "Telethon String Session",
         "value": "",
         "required": false
-      }, 
+      },
       "STRING17": {
         "description": "Telethon String Session",
         "value": "",
@@ -133,25 +133,10 @@
         "value": "",
         "required": false
       },
-        "STRING26": {
+      "STRING26": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
-      },
-      "API_ID": {
-        "description": "Telethon String Session",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Api Hash",
-        "value": "",
-        "required": true
-      },
-      "SUDO": {
-        "description": "Sudo Users Id",
-        "value": "1922242462",
-        "required": true
       },
       "USERNAME": {
         "description": "enter your username.. Without @",
@@ -160,9 +145,25 @@
       },
       "ALIVE_NAME": {
         "description": "enter your name",
-        "value": "⚔️【★𝖡𝖫𝖠𝖹𝖤 ★】 𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★➤➤",
+        "value": "BLAZE SPAMMER",
         "required": false
-  }, 
+      },
+      "API_ID": {
+        "description": "APP ID",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "API HAS ",
+        "value": "",
+        "required": true
+      },
+      "SUDO": {
+        "description": "SUDO USERS ID MERA BHI DAL LENA ACHHA HU DIL KA ",
+        "value": "1922242462",
+        "required": true
+      }
+  },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
