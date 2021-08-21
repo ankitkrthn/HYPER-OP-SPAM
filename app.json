@@ -145,7 +145,7 @@
       },
       "ALIVE_NAME": {
         "description": "enter your name",
-        "value": "BLAZE SPAMMER",
+        "value": "⚔️【★𝖡𝖫𝖠𝖹𝖤★】𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★",
         "required": false
       },
       "API_ID": {
@@ -159,7 +159,7 @@
         "required": true
       },
       "SUDO": {
-        "description": "SUDO USERS ID MERA BHI DAL LENA ACHHA HU DIL KA ",
+        "description": "SUDO USERS ID",
         "value": "1922242462",
         "required": true
       }
