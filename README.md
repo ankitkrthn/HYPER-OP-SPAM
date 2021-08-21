@@ -30,4 +30,4 @@ __________________________________
    - 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝗈𝗇 𝖱𝖾𝗉𝗅 [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
 
 
-𝚂ᏢᎪ𝙼 𝙱Ꮎ𝚃 Ꮢ𝙴Ꮲ𝙾... [𝗥𝗘𝗣𝗢☺](https://replit.com/@BLAZE-NETWORK/BLAZE-SPAMMER)
+
