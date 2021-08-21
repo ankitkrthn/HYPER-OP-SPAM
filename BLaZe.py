@@ -1535,6 +1535,39 @@ async def help(e):
     await e.reply(text, parse_mode=None, link_preview=None )
 
         
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@alz.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+
+async def help(e):
+    if e.sender_id in SMEX_USERS:
+       text = "✴️| 𝐓 𝐄 𝐀 𝐌 • ‌«[ 𝐁𝐋𝐀𝐙𝐄]»𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★➤➤♛✴️\n\n#𝗕𝗟𝗔𝗭𝗘_𝗦𝗣𝗔𝗠𝗠𝗘𝗥\n\n𝚂ᏢᎪ𝙼 𝙱Ꮎ𝚃 Ꮢ𝙴Ꮲ𝙾... [𝗥𝗘𝗣𝗢☺](https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)\n𝚂𝚃яιηg 𝚂εssισᏁ.. [ᏟᏞᎥᏟᏦ ђᎬᎪᏒ](https://replit.com/@BLAZE-NETWORK/BLAZE-SPAMMER)..
+    await e.reply(text, parse_mode=None, link_preview=None )
+
+
 
     
         
