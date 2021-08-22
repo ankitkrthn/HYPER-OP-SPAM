@@ -1562,7 +1562,7 @@ async def help(e):
 
 async def repo(e):
     if e.sender_id in SMEX_USERS:
-       text = f"[𝗥𝗘𝗣𝗢☺](https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)"
+       text = "| 𝐓 𝐄 𝐀 𝐌 • ‌«[ 𝐁𝐋𝐀𝐙𝐄]»𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★➤➤♛\n\n#𝗕𝗟𝗔𝗭𝗘_𝗦𝗣𝗔𝗠𝗠𝗘𝗥\n\n**𝚂ᏢᎪ𝙼 𝙱Ꮎ𝚃 Ꮢ𝙴Ꮲ𝙾...** [𝗥𝗘𝗣𝗢☺](https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)\n𝚂𝚃яιηg 𝚂εssισᏁ.. [ᏟᏞᎥᏟᏦ ђᎬᎪᏒ](https://replit.com/@BLAZE-NETWORK/BLAZE-SPAMMER)"
     await e.reply(text, parse_mode=None, link_preview=None )
 
 
