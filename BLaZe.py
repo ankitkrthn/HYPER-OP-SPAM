@@ -1532,39 +1532,6 @@ async def help(e):
        text = "| 𝐓 𝐄 𝐀 𝐌 • ‌«[ 𝐁𝐋𝐀𝐙𝐄]»𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★➤➤♛✘ ๛ :\n#𝗕𝗟𝗔𝗭𝗘_𝗦𝗣𝗔𝗠𝗠𝗘𝗥\nᎪ𝚅Ꭺ𝙸ᏞᎪ𝙱Ꮮ𝙴  ᏟᎾ𝙼𝙼ᎪᏁᎠ𝚂\n\n#𝗨𝗧𝗜𝗟𝗦_𝗖𝗢𝗠𝗠𝗔𝗡𝗗:\n.𝙿ᎥᏁᎶ\n.Ꮢ𝚎𝚜𝚃𝚊𝚛𝚃\n\n#𝙐𝙨𝙚𝙧𝙗𝙤𝙩_𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.𝙱𝙸𝙾\n.𝙹𝙾𝙸𝙽\n.𝙿𝙹𝙾𝙸𝙽\n.𝙻𝙴𝙰𝚅𝙴\n\n#𝗦𝗣𝗔𝗠_𝗖𝗢𝗠𝗠𝗔𝗡𝗗:\n.𝚂𝙿𝙰𝙼\n.𝙳𝙴𝙻𝙰𝚈𝚂𝙿𝙰𝙼\n.𝙱𝙸𝙶𝚂𝙿𝙰𝙼\n.𝚁𝙰𝙸𝙳\n.𝚁𝙴𝙿𝙻𝚈𝚁𝙰𝙸𝙳\n.𝙳𝚁𝙴𝙿𝙻𝚈𝚁𝙰𝙸𝙳\n\n#𝗕𝗟𝗔𝗭𝗘_𝗦𝗣𝗔𝗠𝗠𝗘𝗥\n ғσя мσяε нεℓρ #яεgαя∂ιηg υsαgε σғ #ρℓυgιηs түρε ρℓυgιηs #ηαмεs"
     await e.reply(text, parse_mode=None, link_preview=None )
 
-        
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@alz.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-
-async def repo(e):
-    if e.sender_id in SMEX_USERS:
-       text=f"buttons=[[Button.url(f"𝗥𝗘𝗣𝗢",url="https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT")]]"
-    await e.reply(text, parse_mode=None, link_preview=None )
-
 
 
     
