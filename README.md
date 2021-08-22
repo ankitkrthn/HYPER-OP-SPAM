@@ -30,3 +30,4 @@ __________________________________
    - 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝗈𝗇 𝖱𝖾𝗉𝗅 [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@TCeReaLkiller/CEREALKILLERS-SpAm-RoBoT)
 
 
+(text=f"{BOT} REPO AND GROUP LINK",buttons=[[Button.url(f"🔥{BOT} REPO🔥", url="https://github.com/KeinShin/Black-Lightning"), Button.url(f"⚡{BOT} SUPPORT⚡", url="https://t.me/lightning_support_group")]])
