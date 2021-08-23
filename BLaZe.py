@@ -1533,6 +1533,71 @@ async def help(e):
     await e.reply(text, parse_mode=None, link_preview=None )
 
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\*add"))
+
+async def get_users(event):
+    sender = await event.get_sender()
+    me = await event.client.get_me()
+    if not sender.id == me.id:
+        bLaZe = await event.edit(f"`processing...`")
+    else:
+        h1m4n5hu0p = await get_chatinfo(event)
+        chat = await event.get_chat()
+        
+    if event.is_private:
+        return await event.edit("`Sorry, Cant add users here`")
+    s = 0
+    f = 0
+    error = "None"
+
+    await event.edit("**TerminalStatus**\n\n`Collecting Users.......`")
+    async for user in event.client.iter_participants(h1m4n5hu0p.full_chat.id):
+        try:
+            if error.startswith("Too"):
+                return await event.edit(
+                    f"**Terminal Finished With Error**\n(`May Got Limit Error from telethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people"
+                )
+            await event.client(
+                functions.channels.InviteToChannelRequest(channel=chat, users=[user.id])
+            )
+            s = s + 1
+            await event.edit(
+                f"**Terminal Running...**\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people\n\n**× LastError:** `{error}`"
+            )
+        except Exception as e:
+            error = str(e)
+            f = f + 1
+    return await event.edit(
+        f"**Terminal Finished** \n\n• Successfully Invited `{s}` people \n• failed to invite `{f}` people"
+    )
+
+
+
+
 
     
         
