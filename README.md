@@ -2,7 +2,7 @@
 # 𝚃𝙷𝙴 𝙱𝙻𝙰𝚉𝙴 𝚂𝙿𝙰𝙼𝙼𝙴𝚁 
 
 <p align="center">
-  <img src="https://telegra.ph/file/a5ec1064cca3d1151e506.jpg">
+  <img src="https://telegra.ph/file/2815f99a6d1387829fe87.jpg">
 </p>
 
 __________________________________
