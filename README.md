@@ -16,7 +16,7 @@ __________________________________
 
 
 #### ✰.ᴏᴛʜᴇʀ ᴡɪᴛʜ sᴏᴍᴇ ᴍɪsғᴜɴᴛɪᴏɴɪɴɢ ʙʀᴀɪɴ sᴛᴀʏ ᴏᴜᴛ ᴛʜɪs sᴜᴘᴇʀ ᴍᴀʜᴀsᴘᴀᴍ ʀᴏʙᴏᴛ
- ᴅᴇᴘʟᴏʏ ᴛᴏ..... 25 ʙᴏᴛs ɪɴ ᴛɪᴍᴇ ✰
+ ᴅᴇᴘʟᴏʏ ᴛᴏ..... 31 ʙᴏᴛs ɪɴ ᴛɪᴍᴇ ✰
 __________________________________
 ## 🚀 𝐃ερℓσү ση нεяσкυ 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)
