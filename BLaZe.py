@@ -2173,6 +2173,25 @@ async def _(e):
 @bac.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @bad.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @bae.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@baf.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bag.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bah.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bai.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@baj.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bak.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bal.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bam.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@ban.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bao.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bap.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@baq.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bar.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bas.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bat.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bau.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bav.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@baw.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@bax.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 
 
 async def ping(e):
@@ -2216,6 +2235,26 @@ async def ping(e):
 @bac.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @bad.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @bae.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@baf.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bag.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bah.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bai.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@baj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bak.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bal.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bam.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ban.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bao.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bap.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@baq.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bar.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bas.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bat.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bau.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bav.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@baw.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@bax.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+
 
 
 
@@ -2344,7 +2383,80 @@ async def restart(e):
             await bae.disconnect()
         except Exception as e:
             pass
-                                
+        try:
+            await baf.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bag.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bah.disconnect()
+        except Exception as e:
+            pass
+            await bai.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await baj.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bak.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bal.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bam.disconnect()
+        except Exception as e:
+            pass
+            await ban.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bao.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bap.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await baq.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bar.disconnect()
+        except Exception as e:
+            pass
+            await bas.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bat.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bau.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bav.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await baw.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await bax.disconnect()
+        except Exception as e:
+            pass
+                                                               
 
             
         os.execl(sys.executable, sys.executable, *sys.argv)
