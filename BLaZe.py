@@ -2494,6 +2494,25 @@ async def restart(e):
 @bac.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @bad.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @bae.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@baf.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bag.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bah.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bai.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@baj.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bak.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bal.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bam.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@ban.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bao.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bap.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@baq.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bar.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bas.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bat.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bau.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bav.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@baw.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@bax.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 
 
 async def help(e):
@@ -2630,6 +2649,82 @@ if len(sys.argv) not in (1, 3, 4):
         bae.disconnect()
     except Exception as e:
         pass    
+    try:
+        baf.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bag.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bah.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bai.disconnect()
+    except Exception as e:
+        pass    
+    try:
+        baj.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bak.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bal.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bam.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ban.disconnect()
+    except Exception as e:
+        pass    
+    try:
+        bao.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bap.disconnect()
+    except Exception as e:
+        pass
+    try:
+        baq.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bar.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bas.disconnect()
+    except Exception as e:
+        pass    
+    try:
+        bat.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bau.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bav.disconnect()
+    except Exception as e:
+        pass
+    try:
+        baw.disconnect()
+    except Exception as e:
+        pass
+    try:
+        bax.disconnect()
+    except Exception as e:
+        pass    
 
 else:
     
@@ -2755,6 +2850,82 @@ else:
         pass
     try:
         bae.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        baf.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bag.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bah.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bai.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        baj.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bak.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bal.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bam.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ban.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bao.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bap.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        baq.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bar.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bas.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bat.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bau.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bav.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        baw.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        bax.run_until_disconnected()
     except Exception as e:
         pass
     
