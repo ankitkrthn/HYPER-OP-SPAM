@@ -157,6 +157,25 @@ async def start_BLaZe():
     global bac
     global bad
     global bae
+    global baf
+    global bag
+    global bah
+    global bai
+    global baj
+    global bak
+    global bal
+    global bam
+    global ban
+    global bao
+    global bap
+    global baq
+    global bar
+    global bas
+    global bat
+    global bau
+    global bav
+    global baw
+    global bax
  
 
     if blazea:
