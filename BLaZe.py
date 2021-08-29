@@ -1435,8 +1435,8 @@ async def start_BLaZe():
 
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_BLaZe())       
-
+loop.run_until_complete(start_BLaZe())    
+   
 async def gifspam(e, blazea):
     try:
         await e.client(
