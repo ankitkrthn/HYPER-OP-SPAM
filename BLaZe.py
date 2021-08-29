@@ -1449,7 +1449,7 @@ async def gifspam(e, blazea):
                 unsave=True,
             )
         )
-        except Exception as e:
+    except Exception as e:
         pass
 
 @bla.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
