@@ -1264,7 +1264,7 @@ async def start_BLaZe():
             await bar.start()
             botme = await bar.get_me()
             await bar(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bar functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bar(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
             botid = telethon.utils.get_peer_id(botme)
             BLAZEA_USERS.append(botid)
         except Exception as e:
