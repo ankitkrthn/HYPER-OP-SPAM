@@ -1970,7 +1970,7 @@ async def spam(e):
 @bas.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bat.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bau.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@bav on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bav.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @baw.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bax.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 
