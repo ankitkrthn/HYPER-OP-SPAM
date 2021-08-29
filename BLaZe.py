@@ -701,7 +701,7 @@ async def start_BLaZe():
         try:
             await blu.start()
         except Exception as e:
-            pass
+            passU
 
     if blazev:
         session_name = str(blazev)
@@ -1624,6 +1624,25 @@ async def _(e):
 @bac.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @bad.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @bae.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@baf.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bag.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bah.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bai.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@baj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bak.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bal.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bam.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ban.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bao.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bap.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@baq.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bar.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bas.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bat.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bau.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bav.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@baw.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bax.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
@@ -1672,6 +1691,26 @@ async def _(e):
 @bac.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @bad.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @bae.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@baf.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bag.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bah.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bai.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@baj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bak.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bal.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bam.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ban.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bao.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bap.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@baq.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bar.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bas.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bat.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bau.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bav.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@baw.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@bax.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+
 
 
 async def _(e):
@@ -1722,6 +1761,25 @@ async def _(e):
 @bac.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @bad.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @bae.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@baf.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bag.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bah.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bai.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@baj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bak.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bal.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bam.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ban.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bao.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bap.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@baq.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bar.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bas.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bat.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bau.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bav.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@baw.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bax.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
@@ -1855,6 +1913,25 @@ async def spam(e):
 @bac.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bad.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bae.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@baf.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bag.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bah.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bai.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@baj.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bak.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bal.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bam.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ban.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bao.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bap.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@baq.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bar.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bas.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bat.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bau.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bav on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@baw.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@bax.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 
 
 async def spam(e):
