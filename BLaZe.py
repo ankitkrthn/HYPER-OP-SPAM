@@ -701,7 +701,7 @@ async def start_BLaZe():
         try:
             await blu.start()
         except Exception as e:
-            passU
+            pass
 
     if blazev:
         session_name = str(blazev)
