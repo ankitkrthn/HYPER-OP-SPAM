@@ -1730,7 +1730,7 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
-@bla.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @bld.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1811,7 +1811,7 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
-@bla.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @bld.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
@@ -1923,7 +1923,7 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
-@bla.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bld.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
@@ -2009,7 +2009,7 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
-@bla.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @bld.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
@@ -2166,7 +2166,7 @@ async def _(event):
             reply_to=event.message.id,
         )           
             
-@bla.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @bld.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
@@ -2248,7 +2248,7 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
-@bla.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @bld.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
@@ -2660,7 +2660,6 @@ async def restart(e):
         quit()
 
         
-@bla.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @bld.on(events.NewMessage(incoming=True, pattern=r"\.help"))
@@ -2718,56 +2717,6 @@ async def help(e):
     await e.reply(text, parse_mode=None, link_preview=None )
 
 @bla.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blb.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blc.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bld.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ble.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blf.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blg.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blh.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bli.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blj.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blk.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bll.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blm.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bln.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blo.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blp.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blq.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blr.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bls.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blt.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blu.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blv.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blw.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blx.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bly.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@blz.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@baa.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bab.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bac.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bad.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bae.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@baf.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bag.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bah.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bai.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@baj.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bak.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bal.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bam.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@ban.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bao.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bap.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@baq.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bar.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bas.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bat.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bau.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bav.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@baw.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-@bax.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
-
 
 async def repo(e):
     if e.sender_id in BLAZEA_USERS:
