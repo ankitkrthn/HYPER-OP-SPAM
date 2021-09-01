@@ -19,8 +19,7 @@ __________________________________
  𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙾 31 𝙱𝙾𝚃𝚂 ɪɴ 𝙾𝙽 𝚃𝙸𝙼𝙴 ✰
 __________________________________
 ## 🚀 𝐃ερℓσү ση нεяσкυ 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
  __________________________________
 # [sтяιηg sεssιση](https://replit.com/@TCeReaLkiller/BLAZE-SPAMMER)
 
