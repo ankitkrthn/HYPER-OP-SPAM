@@ -21,7 +21,7 @@ __________________________________
 ## 🚀 𝐃ερℓσү ση нεяσкυ 
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/blazeclone"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
 
  __________________________________
 # [sтяιηg sεssιση](https://replit.com/@TCeReaLkiller/BLAZE-SPAMMER)
