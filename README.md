@@ -21,9 +21,9 @@ __________________________________
 ## 🚀 𝐃ερℓσү ση нεяσкυ 
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/blazeclone"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
-
- __________________________________
+[![Deploy](https://telegra.ph/file/b1b3358ee6096d4750b82.jpg)](https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/blazeclone)
+ 
+__________________________________
 # [sтяιηg sεssιση](https://replit.com/@TCeReaLkiller/BLAZE-SPAMMER)
 
 
